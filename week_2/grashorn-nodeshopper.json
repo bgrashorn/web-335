@@ -1,0 +1,110 @@
+[
+    {
+      "_id": "1221",
+      "firstName": "Brett",
+      "lastName": "Grashorn",
+      "dateOfBirth": "1996",
+      "username": "bgrashorn21",
+      "invoices": [
+        {
+          "_id": "5678",
+          "createDate": "03/23/2023",
+          "shipDate": "03/25/2023",
+          "subtotal": 21.52
+        },
+        {
+          "_id": "9110",
+          "createDate": "03/21/2023",
+          "shipDate": "03/22/2023",
+          "subtotal": 25.89
+        }
+      ]
+    },
+  
+    {
+      "invoices": [
+        {
+          "_id": "1234",
+          "createDate": "03/23/2023",
+          "shipDate": "03/24/2023",
+          "subtotal": 11.22,
+          "customer": [
+            {
+              "_id": "4567",
+              "firstName": "Brett",
+              "lastName": "Grashorn",
+              "dateOfBirth": "1996",
+              "username": "bgrashorn21"
+            },
+            {
+              "_id": "1313",
+              "firstName": "Lexi",
+              "lastName": "Walker",
+              "dateOfBirth": "2001",
+              "username": "lwalker13"
+            }
+          ]
+        },
+        {
+          "_id": "8888",
+          "createDate": "03/22/2023",
+          "shipDate": "03/25/2023",
+          "subtotal": 60.10,
+          "customer": [
+            {
+              "_id": "4567",
+              "firstName": "Brett",
+              "lastName": "Grashorn",
+              "dateOfBirth": "1996",
+              "username": "bgrashorn21"
+            },
+            {
+              "_id": "1313",
+              "firstName": "Lexi",
+              "lastName": "Walker",
+              "dateOfBirth": "2001",
+              "username": "lwalker13"
+            }
+          ]
+        }
+      ]
+    },
+  
+    {
+      "_id": "5678",
+      "createDate": "03/21/2023",
+      "shipDate": "03/22/2023",
+      "subtotal": 22.89,
+      "customer": [
+        {
+          "_id": "4567",
+          "firstName": "Brett",
+          "lastName": "Grashorn",
+          "dateOfBirth": "1996",
+          "username": "bgrashorn21"
+        },
+        {
+          "_id": "1313",
+          "firstName": "Lexi",
+          "lastName": "Walker",
+          "dateOfBirth": "2001",
+          "username": "lwalker13"
+        }
+      ]
+    },
+  
+    {
+      "lineItems": {
+        "_id": "1254",
+        "productName": "Kitty Litter",
+        "price": 13.99,
+        "qty": 2,
+        "invoice": {
+          "_id": "4567",
+          "createDate": "03/21/2023",
+          "shipDate": "03/22/2023",
+          "subtotal": 15.78
+        }
+      }
+    }
+  ]

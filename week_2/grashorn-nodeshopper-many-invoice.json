@@ -1,0 +1,49 @@
+{
+    "invoices": [
+      {
+        "_id": "5678",
+        "createDate": "03/21/2023",
+        "shipDate": "03/22/2023",
+        "subtotal": 90.20
+        ,
+        "customer": [
+          {
+            "_id": "1221",
+            "firstName": "Brett",
+            "lastName": "Grashorn",
+            "dateOfBirth": "1996",
+            "username": "bgrashorn21"
+          },
+          {
+            "_id": "1313",
+            "firstName": "Lexi",
+            "lastName": "Walker",
+            "dateOfBirth": "2001",
+            "username": "lwalker13"
+          }
+        ]
+      },
+      {
+        "_id": "9110",
+        "createDate": "03/21/2023",
+        "shipDate": "03/22/2023",
+        "subtotal": 20.50,
+        "customer": [
+          {
+            "_id": "1221",
+            "firstName": "Brett",
+            "lastName": "Grashorn",
+            "dateOfBirth": "1996",
+            "username": "bgrashorn21"
+          },
+          {
+            "_id": "1313",
+            "firstName": "Lexi",
+            "lastName": "Walker",
+            "dateOfBirth": "2001",
+            "username": "lwalker13"
+          }
+        ]
+      }
+    ]
+  }
