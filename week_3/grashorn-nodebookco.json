@@ -1,0 +1,49 @@
+[
+    {
+        "publisher_name": "Hyperion",
+        "publisher_code": "55555",
+        "publisher_address": "114 5th Ave, New York, NY 10011",
+        "author": [
+            {
+                "author_last_name": "Riordan",
+                "author_first_name": "Rick",
+                "author_phone": "555-555-5555",
+                "author_email": "riordan@email.com"
+            },
+            {
+                "author_last_name": "Hall",
+                "author_first_name": "Bobby",
+                "author_phone": "909-909-9090",
+                "author_email": "logic@email.com"
+            }
+        ]
+    },
+    {
+        "author_last_name": "Riordan",
+        "author_first_name": "Rick",
+        "author_phone": "555-555-5555",
+        "author_email": "riordan@email.com",
+        "books": [
+            {
+            "book_isbn": "9781368051477",
+             "book_name": "The Lightning Thief",
+            "book_price": "16.99"
+            },
+            {
+            "book_isbn": "9781368051491",
+            "book_name": "The Sea of Monsters",
+            "book_price": "7.99"
+             }
+            ]
+    },
+    {
+        "book_isbn": "9781368051477",
+        "book_name": "The Lightning Thief",
+        "book_price": "16.99",
+        "publisher": {
+            "publisher_name": "Hyperion",
+            "publisher_code": "55555",
+            "publisher_address": "114 5th Ave, New York, NY 10011"
+        }
+    }
+]
