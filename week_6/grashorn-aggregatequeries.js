@@ -1,5 +1,5 @@
 /**
-	Title: Assignment 6.2 Aggregate Queries
+  Title: Assignment 6.2 Aggregate Queries
     Author: Brett Grashorn
     Date: 4/17/23
     Description: This week we learn about Aggregate Queries
